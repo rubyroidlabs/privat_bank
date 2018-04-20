@@ -6,7 +6,7 @@ require 'privat_bank/version'
 Gem::Specification.new do |spec|
   spec.name          = 'privat_bank'
   spec.version       = PrivatBank::VERSION
-  spec.authors       = ['Eugene Haisenka']
+  spec.authors       = ['Eugene Haisenka', 'Dmitry Artyomov']
   spec.email         = ['eugene.haisenka@rubyroidlabs.com']
   spec.summary       = 'Money gem bank implementation for Privat Bank'
   spec.description   = 'PrivatBank extends Money::Bank::VariableExchange and gives you access to the Privatbank currency exchange rates.'

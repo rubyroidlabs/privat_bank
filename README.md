@@ -17,6 +17,16 @@ Or install it yourself as:
 
     $ gem install privat_bank
 
+## Configuration
+
+You can configure this gem to use proxy by creating an initializer:
+
+```ruby
+PrivatBank.configuration do |config|
+  config.proxy = 'your-proxy-url'
+end
+```
+
 ## Usage
 
 TODO: Write usage instructions here
